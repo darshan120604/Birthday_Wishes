@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy Birthday Darshan 🎉</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+<!-- Firebase App (compat version) -->
+<script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app-compat.js"></script>
+<!-- Firebase Database (compat version) -->
+<script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-database-compat.js"></script>
+
+
+</head>
+<body>
+  <div class="container">
+  <img src="img5.jpg" alt="Happy Birthday Darshan" class="birthday-image" />
+  
+  <h1>🎂 Happy Birthday Darshan! 🎈</h1>
+  <p>Leave a special birthday wish below 👇</p>
+  
+<input type="text" id="nameInput" placeholder="Your Name" />
+<textarea id="wishInput" placeholder="Type your wish here..."></textarea>
+<button onclick="submitWish()">Send Wish</button>
+
+  
+  <div id="wishList"></div>
+</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
